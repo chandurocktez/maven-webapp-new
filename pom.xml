@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.6-SNAPSHOT</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -101,7 +101,7 @@
 	<repositories>
         <repository>
           <id>central</id>
-          <url>http://13.235.113.11:8081/repository/Tez-libs-proxy/</url>
+          <url>http://13.235.113.11:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
@@ -109,7 +109,7 @@
      <pluginRepositories>
         <pluginRepository>
           <id>central</id>
-          <url>http://13.235.113.11:8081/repository/Tez-libs-proxy/</url>
+          <url>http://13.235.113.11:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
