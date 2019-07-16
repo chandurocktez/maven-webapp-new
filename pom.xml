@@ -91,12 +91,11 @@
 	      <id>nexus</id>
 	      <url>http://13.235.113.11:8081/repository/Tez-releases/</url>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	   
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.113.11:8081/repository/Tex-snapshot/</url>
+	      <url>http://13.235.113.11:8081/repository/Tez-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	<!--
