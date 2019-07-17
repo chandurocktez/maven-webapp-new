@@ -120,6 +120,34 @@
 	</pluginRepositories>
 -->
 	
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <url>http://52.66.187.37:8081/repository/Tez-releases/</url>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://52.66.187.37:8081/repository/Tez-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	<repositories>
+        <repository>
+          <id>central</id>
+          <url>http://52.66.187.37:8081/repository/Tez-group/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+      </repositories>
+     <pluginRepositories>
+        <pluginRepository>
+          <id>central</id>
+          <url>http://52.66.187.37:8081/repository/Tez-group/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </pluginRepository>
+      </pluginRepositories>
 	<build>
 		<finalName>maven-web-application</finalName>
 		<plugins>
