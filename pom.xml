@@ -89,19 +89,19 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <url>http://13.235.113.11:8081/repository/Tez-releases/</url>
+	      <url>http://52.66.187.37:8081/repository/Tez-releases/</url>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.113.11:8081/repository/Tez-snapshot/</url>
+	      <url>http://52.66.187.37:8081/repository/Tez-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	<repositories>
         <repository>
           <id>central</id>
-          <url>http://13.235.113.11:8081/repository/Tez-group/</url>
+          <url>http://52.66.187.37:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
@@ -109,7 +109,7 @@
      <pluginRepositories>
         <pluginRepository>
           <id>central</id>
-          <url>http://13.235.113.11:8081/repository/Tez-group/</url>
+          <url>http://52.66.187.37:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
