@@ -1,8 +1,5 @@
 node(){
     def mvnHome = tool name:'Maven 3.6.1', type:'maven'
-    sh 'env > env.txt' 
-for (String i : readFile('env.txt').split("\r?\n")) {
-    println i
 }
 stage('Checkout the Code from Github'){
     git credentialsId: '12a4597f-4820-4862-820d-bc820c8c757a', url: 'https://github.com/chandurocktez/maven-webapp.git'
