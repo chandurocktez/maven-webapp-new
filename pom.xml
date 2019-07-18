@@ -24,7 +24,7 @@
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<!-- <sonar.host.url></sonar.host.url> -->
-		<sonar.host.url>http://13.126.32.75:9000/</sonar.host.url>
+		<sonar.host.url>http://13.126.248.152:9000/</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -123,19 +123,19 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <url>http://13.235.128.122:8081/repository/Tez-releases/</url>
+	      <url>http://52.66.166.251:8081/repository/Tez-releases/</url>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.128.122:8081/repository/Tez-snapshot/</url>
+	      <url>http://52.66.166.251:8081/repository/Tez-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	<repositories>
         <repository>
           <id>central</id>
-          <url>http://13.235.128.122:8081/repository/Tez-group/</url>
+          <url>http://52.66.166.251:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
@@ -143,7 +143,7 @@
      <pluginRepositories>
         <pluginRepository>
           <id>central</id>
-          <url>http://13.235.128.122:8081/repository/Tez-group/</url>
+          <url>http://52.66.166.251:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
