@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1 align="center">OMG This is Chandu Sekhar Devops Jenkins Jobs @</h1>
-<h1 align="center">Very Good Training center for DevOps in Maratha Halli and also for Job Assitance... and Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center">Very Good Training center for all DevOps in Maratha Halli and also for Job Assitance... and Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
