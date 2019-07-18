@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.6-SNAPSHOT</version>
+	<version>1.7-SNAPSHOT</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -23,10 +23,8 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.106.76:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
-
+		<!-- <sonar.host.url></sonar.host.url> -->
+		<sonar.host.url>http://13.126.248.152:9000/</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -91,8 +89,10 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
+
 	      <url></url>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	   
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
@@ -100,8 +100,54 @@
 	      <url></url>
 	    </snapshotRepository>
 	</distributionManagement>
-	-->
+-->
+	<!--
+	<repositories>
+		<repository>
+			<id>central</id>
+			<url></url>
+			<releases><enabled>true</enabled></releases>
+			<snapshots><enabled>true</enabled></snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>central</id>
+			<url></url>
+			<releases><enabled>true</enabled></releases>
+			<snapshots><enabled>true</enabled></snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+-->
 	
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <url>http://52.66.166.251:8081/repository/Tez-releases/</url>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://52.66.166.251:8081/repository/Tez-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	<repositories>
+        <repository>
+          <id>central</id>
+          <url>http://52.66.166.251:8081/repository/Tez-group/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+      </repositories>
+     <pluginRepositories>
+        <pluginRepository>
+          <id>central</id>
+          <url>http://52.66.166.251:8081/repository/Tez-group/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </pluginRepository>
+      </pluginRepositories>
 	<build>
 		<finalName>maven-web-application</finalName>
 		<plugins>
