@@ -1,4 +1,4 @@
-node('node'){
+node('node1'){
     def mvnHome = tool name:'Maven 3.6.1', type:'maven'
 stage('Checkout the Code from Github'){
     git credentialsId: '12a4597f-4820-4862-820d-bc820c8c757a', url: 'https://github.com/chandurocktez/maven-webapp.git'
