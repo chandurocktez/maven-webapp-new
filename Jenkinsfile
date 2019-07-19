@@ -14,7 +14,7 @@ stage('Generating Reports using Sonarqube'){
     }
 stage('Deploying the Package in to Tomcat Server'){
     sshagent(['Tomcat-Tez-Key1']) {
-    sh "scp -o StrictHostKeyChecking=no target/*.war ec2-user@13.235.19.149:/opt/apache-tomcat-9.0.21/webapps/maven-web-application.war"
+    sh "scp -o StrictHostKeyChecking=no target/*.war ec2-user@13.234.78.43:/opt/apache-tomcat-9.0.21/webapps/maven-web-application.war"
 }
 }
 
