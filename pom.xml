@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>2.0-SNAPSHOT</version>
+	<version>2.2-SNAPSHOT</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -23,7 +23,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.234.59.135:9000</sonar.host.url>
+		<sonar.host.url>http://13.233.161.170:9000</sonar.host.url>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -89,19 +89,19 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <url>http://13.235.31.37:8081/repository/Tez-releases/</url>
+	      <url>http://52.66.195.153:8081/repository/Tez-releases/</url>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.31.37:8081/repository/Tez-snapshot/</url>
+	      <url>http://52.66.195.153:8081/repository/Tez-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	<repositories>
         <repository>
           <id>central</id>
-          <url>http://13.235.31.37:8081/repository/Tez-group/</url>
+          <url>http://52.66.195.153:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
@@ -109,7 +109,7 @@
      <pluginRepositories>
         <pluginRepository>
           <id>central</id>
-          <url>http://13.235.31.37:8081/repository/Tez-group/</url>
+          <url>http://52.66.195.153:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
